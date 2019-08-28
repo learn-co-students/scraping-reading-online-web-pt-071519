@@ -8,5 +8,5 @@ html = open("https://www.suzesims.com/")
 # by open-uri's `open` method and convert it into a NodeSet 
 
 doc = Nokogiri::HTML(html)
-doc.css(".site-header__hero__headline").text
+doc.css(".siteAspectsContainer").text
 puts doc
